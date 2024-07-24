@@ -1,5 +1,12 @@
 import "./App.css";
-import Seven from "./components/Seven";
+import Fourteen from "./components/Fourteen";
+//import Thirteen from "./components/Thirteen";
+// import Eleven from "./components/Eleven";
+// import Twelve from "./components/Twelve";
+//import Ten from "./components/Ten";
+// import Nine from "./components/Nine";
+// import Eight from "./components/Eight";
+// import Seven from "./components/Seven";
 // import Six from "./components/Six";
 // import Five from "./components/Five";
 // import Four from "./components/Four";
@@ -16,7 +23,14 @@ function App() {
       {/* <Four/> */}
       {/* <Five/> */}
       {/* <Six/> */}
-      <Seven/>
+      {/* <Seven/> */}
+      {/* <Eight/> */}
+      {/* <Nine/> */}
+      {/* <Ten/> */}
+      {/* <Eleven/> */}
+      {/* <Twelve/> */}
+      {/* <Thirteen/> */}
+      <Fourteen />
     </div>
   );
 }
