@@ -1,5 +1,12 @@
 import "./App.css";
-import Fourteen from "./components/Fourteen";
+//import Eighteen from "./components/Eighteen";
+import Nineteen from "./components/Nineteen";
+import NineteenComp from "./components/NineteenComp";
+import { ThemeProvider } from "./context/ThemeContext";
+// import Seventeen from "./components/Seventeen";
+// import Sixteen from "./components/Sixteen";
+// import Fifteen from "./components/Fifteen";
+//import Fourteen from "./components/Fourteen";
 //import Thirteen from "./components/Thirteen";
 // import Eleven from "./components/Eleven";
 // import Twelve from "./components/Twelve";
@@ -30,7 +37,16 @@ function App() {
       {/* <Eleven/> */}
       {/* <Twelve/> */}
       {/* <Thirteen/> */}
-      <Fourteen />
+      {/* <Fourteen /> */}
+      {/* <Fifteen /> */}
+      {/* <Sixteen/> */}
+      {/* <Seventeen/> */}
+      {/* <Eighteen/> */}
+
+      <ThemeProvider>
+        <Nineteen />
+        <NineteenComp />
+      </ThemeProvider>
     </div>
   );
 }
