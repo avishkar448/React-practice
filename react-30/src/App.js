@@ -1,6 +1,12 @@
 import "./App.css";
-import TweentyFour from "./components/TweentyFour";
-import { AuthProvider } from "./context/AuthContext";
+import TweentyNine from "./components/TweentyNine";
+// import TweentyEight from "./components/TweentyEight";
+// import TweenttySeven from "./components/TweenttySeven";
+// import TweentySix from "./components/TweentySix";
+// import { LocalizationProvider } from "./context/LocalizationContext";
+//import TweentyFive from "./components/TweentyFive";
+// import TweentyFour from "./components/TweentyFour";
+// import { AuthProvider } from "./context/AuthContext";
 // import TweentyThree from "./components/TweentyThree";
 //import TweentyTwo from "./components/TweentyTwo";
 //import Tweenty from "./components/Tweenty";
@@ -64,10 +70,22 @@ function App() {
       {/* <TweentyTwo/> */}
 
       {/* <TweentyThree/> */}
-
+      {/* 
       <AuthProvider>
         <TweentyFour />
-      </AuthProvider>
+      </AuthProvider> */}
+
+      {/* <TweentyFive/> */}
+
+      {/* <LocalizationProvider>
+        <TweentySix />
+      </LocalizationProvider> */}
+
+      {/* <TweenttySeven/> */}
+
+      {/* <TweentyEight/> */}
+
+      <TweentyNine/>
     </div>
   );
 }
