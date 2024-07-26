@@ -1,8 +1,15 @@
 import "./App.css";
+import TweentyFour from "./components/TweentyFour";
+import { AuthProvider } from "./context/AuthContext";
+// import TweentyThree from "./components/TweentyThree";
+//import TweentyTwo from "./components/TweentyTwo";
+//import Tweenty from "./components/Tweenty";
+// import TweentyOne from "./components/TweentyOne";
+//import { CartProvider } from "./context/CartContext";
 //import Eighteen from "./components/Eighteen";
-import Nineteen from "./components/Nineteen";
-import NineteenComp from "./components/NineteenComp";
-import { ThemeProvider } from "./context/ThemeContext";
+// import Nineteen from "./components/Nineteen";
+// import NineteenComp from "./components/NineteenComp";
+// import { ThemeProvider } from "./context/ThemeContext";
 // import Seventeen from "./components/Seventeen";
 // import Sixteen from "./components/Sixteen";
 // import Fifteen from "./components/Fifteen";
@@ -43,10 +50,24 @@ function App() {
       {/* <Seventeen/> */}
       {/* <Eighteen/> */}
 
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <Nineteen />
         <NineteenComp />
-      </ThemeProvider>
+      </ThemeProvider> */}
+
+      {/* <CartProvider>
+      <Tweenty/>
+      </CartProvider> */}
+
+      {/* <TweentyOne/> */}
+
+      {/* <TweentyTwo/> */}
+
+      {/* <TweentyThree/> */}
+
+      <AuthProvider>
+        <TweentyFour />
+      </AuthProvider>
     </div>
   );
 }

@@ -7,7 +7,7 @@ const Nineteen = () => {
     <div>
       <label>
         <input type="checkbox" checked={isDark} onChange={toggleTheme} />
-        DarkMode
+        {isDark ? "Light":"Dark"}
       </label>
     </div>
   );
