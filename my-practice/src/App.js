@@ -1,4 +1,5 @@
 import './App.css';
+import Traffic from './components/Traffic';
 // import Count from './components/Count';
 // import { CountProvider } from './context/countContext';
 // import AxiosExample from './components/AxiosExample';
@@ -18,6 +19,7 @@ function App() {
         {/* <CountProvider>
           <Count/>
         </CountProvider> */}
+        <Traffic/>
       
     </>
   );

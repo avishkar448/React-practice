@@ -1,5 +1,6 @@
 import "./App.css";
 import Thirty from "./components/Thirty";
+import ThirtyOne from "./components/ThirtyOne";
 import TweentyNine from "./components/TweentyNine";
 // import TweentyEight from "./components/TweentyEight";
 // import TweenttySeven from "./components/TweenttySeven";
@@ -88,7 +89,9 @@ function App() {
 
       {/* <TweentyNine/> */}
 
-      <Thirty />
+      {/* <Thirty /> */}
+
+      <ThirtyOne/>
     </div>
   );
 }
