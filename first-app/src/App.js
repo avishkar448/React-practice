@@ -3,7 +3,12 @@ import './App.css';
 // import ThemeContext from './components/ThemeContext';
 // import ThemeButton from './components/ThemeButton';
 import React from 'react';
-import Emails from './pages/Emails';
+import UseRefs from './components/UseRefs';
+// import CounterX from './components/CounterX';
+// import CountReducer from './components/CountReducer';
+//import Emails from './pages/Emails';
+//import DefaultProp from './components/DefaultProp';
+//import PropTy from './components/PropTy';
 // import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 // import A1 from './components/A1';
 // import A2 from './components/A2';
@@ -83,8 +88,22 @@ function App() {
         <Route path="/b" element={<A2/>}/>
       </Routes>
     </Router> */}
-    <h2>Custome hook</h2>
-    <Emails/>
+    {/* <h2>Custome hook</h2>
+    <Emails/> */}
+
+    {/* <DefaultProp name='Abhay'/>
+    <DefaultProp/> */}
+
+    {/* <PropTy/>
+    <PropTy name="Avishkar" course="Full Stack Devloper"/>
+    <PropTy name={20}/> */}
+
+  {/* <CounterX/> */}
+
+  {/* <CountReducer/> */}
+
+  <UseRefs/>
+
     </div>
   );
 }
