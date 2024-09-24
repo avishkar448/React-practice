@@ -1,7 +1,8 @@
 import "./App.css";
-import Thirty from "./components/Thirty";
-import ThirtyOne from "./components/ThirtyOne";
-import TweentyNine from "./components/TweentyNine";
+import Hooks from "./components/Hooks";
+// import Thirty from "./components/Thirty";
+// import ThirtyOne from "./components/ThirtyOne";
+// import TweentyNine from "./components/TweentyNine";
 // import TweentyEight from "./components/TweentyEight";
 // import TweenttySeven from "./components/TweenttySeven";
 // import TweentySix from "./components/TweentySix";
@@ -91,7 +92,10 @@ function App() {
 
       {/* <Thirty /> */}
 
-      <ThirtyOne/>
+      {/* <ThirtyOne/> */}
+
+        <Hooks/>
+
     </div>
   );
 }
